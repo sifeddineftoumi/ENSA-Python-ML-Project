@@ -1,0 +1,52 @@
+﻿# ============================================================
+# Projet Python ENSA Berrechid 2025-2026
+# ============================================================
+
+# ---------- Environnements Python ----------
+.venv/
+.venv-1/
+venv/
+env/
+
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+*.class
+
+# ---------- Jupyter ----------
+.ipynb_checkpoints/
+
+# ---------- IDE ----------
+.vscode/
+.idea/
+
+# ---------- Fichiers système ----------
+.DS_Store
+Thumbs.db
+
+# ---------- Logs ----------
+*.log
+
+# ---------- Fichiers temporaires ----------
+*.tmp
+*.temp
+*.bak
+
+# ---------- Modèles entraînés ----------
+*.h5
+*.keras
+*.pkl
+
+# ---------- Outputs générés ----------
+partie1_cnn_mnist/outputs/
+partie2_ventes/outputs/
+
+# ---------- Fichiers de test temporaires ----------
+*.pyc
+
+# ---------- Données intermédiaires ----------
+partie2_ventes/data/train_scaled.npy
+partie2_ventes/data/test_scaled.npy
+
+# ---------- Fichiers de sauvegarde ----------
+partie2_ventes/src/*_backup.py
